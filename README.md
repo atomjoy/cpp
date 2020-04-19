@@ -1,2 +1,2 @@
 # cpp
-Programowanie w c++, g++
+Programowanie w C++ (g++ linux curl, opengl, sfml, thread).
