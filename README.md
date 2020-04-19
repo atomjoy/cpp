@@ -106,3 +106,42 @@ sudo make
 # Wyczyść
 sudo make clean
 ```
+
+### Visual Code C++ Run Task konfig
+https://github.com/moovspace/cpp/blob/master/.vscode/tasks.json
+```.json
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    // ${fileDirname}
+    // ${fileBasenameNoExtension}
+    // ${workspaceFolderBasename}
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "BUILD NOW",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-Wall",
+                "-pedantic",
+                "${file}",
+                "-o",
+                "${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "RUN NOW",
+            "command": "./${fileBasenameNoExtension}",
+            "dependsOn": [
+                "BUILD NOW"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
+```
