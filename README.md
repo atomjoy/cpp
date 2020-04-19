@@ -35,7 +35,7 @@ g++ -o main-app main.o
 ```
 
 ### Przykład kodu
-```bash
+```cpp
 /*
 Kompilacja
 sudo g++ -c main.cpp -std=c++11 -lpthread
