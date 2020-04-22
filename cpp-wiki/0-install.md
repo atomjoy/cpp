@@ -36,6 +36,12 @@ sudo apt install mesa-utils
 sudo glxinfo | grep "OpenGL version"
 ```
 
+### Instalacja Tls/Ssl, openssl
+```sh
+sudo apt install libssl-dev
+sudo apt install libcrypto++-dev
+```
+
 ### Links
  - https://www.sfml-dev.org/tutorials/2.5/start-linux.php
  - https://github.com/SFML/SFML/wiki/Source:-Bouncing-ball
