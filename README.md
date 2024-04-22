@@ -2,10 +2,10 @@
 Programowanie w C++ (g++ linux curl, opengl, sfml, thread).
 
 ### Instalacja
-https://github.com/moovspace/cpp/blob/master/cpp-wiki/0-install.md
+https://github.com/atomjoy/cpp/blob/master/cpp-wiki/0-install.md
 
 ### Kompilacja
-https://github.com/moovspace/cpp/blob/master/cpp-wiki/1-compile.md
+https://github.com/atomjoy/cpp/blob/master/cpp-wiki/1-compile.md
 ```bash
 # Kompiluj
 sudo g++ -c main.cpp
