@@ -107,7 +107,7 @@ sudo make
 sudo make clean
 ```
 
-### Visual Code C++ Run Task konfig
+### Visual Code C++ Run Task config
 https://github.com/atomjoy/cpp/blob/master/.vscode/tasks.json
 ```.json
 // See https://go.microsoft.com/fwlink/?LinkId=733558
