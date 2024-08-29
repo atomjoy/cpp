@@ -108,7 +108,7 @@ sudo make clean
 ```
 
 ### Visual Code C++ Run Task konfig
-https://github.com/moovspace/cpp/blob/master/.vscode/tasks.json
+https://github.com/atomjoy/cpp/blob/master/.vscode/tasks.json
 ```.json
 // See https://go.microsoft.com/fwlink/?LinkId=733558
 // for the documentation about the tasks.json format
